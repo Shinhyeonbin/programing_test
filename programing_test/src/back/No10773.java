@@ -8,57 +8,26 @@ import java.util.StringTokenizer;
 
 public class No10773 {
     public static void main(String[] args) throws IOException {
-
-        StringBuffer sb = new StringBuffer();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int count = Integer.parseInt(br.readLine());
+        int result = 0;
 
-        int N = Integer.parseInt(br.readLine());
-        int back = 0;
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = 0; i < N; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            String s = st.nextToken();
-
-            switch (s) {
-                case "push": {
-                    int x = Integer.parseInt(st.nextToken());
-                    stack.add(x);
-                    back = x;
-                    break;
-                }
-                case "pop": {
-                    if (stack.isEmpty()) {
-                        sb.append(-1).append("\n"   );
-                    } else {
-                        sb.append(stack.pop()).append("\n");
-                    }
-                    break;
-                }
-                case "size": {
-                    sb.append(stack.size()).append("\n");
-                    break;
-                }
-                case "empty": {
-                    if (stack.isEmpty()) {
-                        sb.append(1).append("\n");
-                    } else {
-                        sb.append(0).append("\n");
-                    }
-                    break;
-                }
-                case "top": {
-                    if (stack.isEmpty()) {
-                        sb.append(-1).append("\n");
-                    } else {
-                        sb.append(stack.peek()).append("\n");
-                    }
-                    break;
-                }
-                default:
-                    break;
+        for(int i = 0; i < count; i++){
+            int input = Integer.parseInt(br.readLine());
+            if(input == 0) {
+                stack.pop();
+            }
+            else{
+                stack.push(input);
             }
         }
-        System.out.println(sb);
+
+        while(!stack.isEmpty()) {
+            result += stack.pop();
+        }
+
+        System.out.println(result);
     }
 }
