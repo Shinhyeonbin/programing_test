@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e98fffa0-0a2d-475d-b3b0-f41ef2eb71a7" name="Changes" comment="boj">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1015.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1032.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1052.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1075.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No1100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No2804.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/No2961.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pratice/adf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pratice/testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/No10773.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/No10773.java" afterDir="false" />
-    </list>
+    <list default="true" id="e98fffa0-0a2d-475d-b3b0-f41ef2eb71a7" name="Changes" comment="boj" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,33 +67,7 @@
       <recent name="BackTracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.adf">
-    <configuration name="No1015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="back.No1015" />
-      <module name="programing_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="back.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="No1049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="back.No1049" />
-      <module name="programing_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="back.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.No3036">
     <configuration name="No1100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="back.No1100" />
       <module name="programing_test" />
@@ -126,6 +83,32 @@
     </configuration>
     <configuration name="No15649" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="back.No15649" />
+      <module name="programing_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="back.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No2804" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="back.No2804" />
+      <module name="programing_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="back.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No3036" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="back.No3036" />
       <module name="programing_test" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No3036" />
+        <item itemvalue="Application.No2804" />
         <item itemvalue="Application.adf" />
         <item itemvalue="Application.testing" />
         <item itemvalue="Application.No1100" />
-        <item itemvalue="Application.No1015" />
-        <item itemvalue="Application.No1049" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +211,7 @@
       <workItem from="1687245879063" duration="17196000" />
       <workItem from="1693296208814" duration="1019000" />
       <workItem from="1696565107724" duration="3245000" />
-      <workItem from="1697682421904" duration="1707000" />
+      <workItem from="1697682421904" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="boj">
       <created>1675054529210</created>
@@ -271,11 +254,6 @@
           <url>file://$PROJECT_DIR$/back/No2864.java</url>
           <line>31</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/back/test.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/leetcode/no1515.java</url>
